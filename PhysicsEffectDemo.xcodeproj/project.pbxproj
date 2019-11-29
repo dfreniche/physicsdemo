@@ -13,6 +13,8 @@
 		9951B7EC23914BE700A897FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9951B7EA23914BE700A897FF /* Main.storyboard */; };
 		9951B7EE23914BE900A897FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9951B7ED23914BE900A897FF /* Assets.xcassets */; };
 		9951B7F123914BE900A897FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9951B7EF23914BE900A897FF /* LaunchScreen.storyboard */; };
+		9951B7F923914BFD00A897FF /* PhysicEffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9951B7F823914BFD00A897FF /* PhysicEffectsViewController.swift */; };
+		9951B7FC2391528100A897FF /* physics.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9951B7FB2391528100A897FF /* physics.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		9951B7ED23914BE900A897FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9951B7F023914BE900A897FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9951B7F223914BE900A897FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9951B7F823914BFD00A897FF /* PhysicEffectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicEffectsViewController.swift; sourceTree = "<group>"; };
+		9951B7FA23914FB600A897FF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9951B7FB2391528100A897FF /* physics.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = physics.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +45,8 @@
 		9951B7D823914BE700A897FF = {
 			isa = PBXGroup;
 			children = (
+				9951B7FB2391528100A897FF /* physics.gif */,
+				9951B7FA23914FB600A897FF /* README.md */,
 				9951B7E323914BE700A897FF /* PhysicsEffectDemo */,
 				9951B7E223914BE700A897FF /* Products */,
 			);
@@ -59,6 +66,7 @@
 				9951B7E423914BE700A897FF /* AppDelegate.swift */,
 				9951B7E623914BE700A897FF /* SceneDelegate.swift */,
 				9951B7E823914BE700A897FF /* ViewController.swift */,
+				9951B7F823914BFD00A897FF /* PhysicEffectsViewController.swift */,
 				9951B7EA23914BE700A897FF /* Main.storyboard */,
 				9951B7ED23914BE900A897FF /* Assets.xcassets */,
 				9951B7EF23914BE900A897FF /* LaunchScreen.storyboard */,
@@ -127,6 +135,7 @@
 			files = (
 				9951B7F123914BE900A897FF /* LaunchScreen.storyboard in Resources */,
 				9951B7EE23914BE900A897FF /* Assets.xcassets in Resources */,
+				9951B7FC2391528100A897FF /* physics.gif in Resources */,
 				9951B7EC23914BE700A897FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9951B7E923914BE700A897FF /* ViewController.swift in Sources */,
+				9951B7F923914BFD00A897FF /* PhysicEffectsViewController.swift in Sources */,
 				9951B7E523914BE700A897FF /* AppDelegate.swift in Sources */,
 				9951B7E723914BE700A897FF /* SceneDelegate.swift in Sources */,
 			);
